@@ -1,6 +1,5 @@
 class CadastrarFuncionarioPage {
 
-
     visit() {
         cy.visit("/cadastros/funcionarios");
     }
