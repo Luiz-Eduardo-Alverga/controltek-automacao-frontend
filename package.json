@@ -1,0 +1,20 @@
+{
+  "name": "testeconstrutora",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@testing-library/cypress": "^10.0.2"
+  },
+  "dependencies": {
+    "testeconstrutora": "file:"
+  }
+}
