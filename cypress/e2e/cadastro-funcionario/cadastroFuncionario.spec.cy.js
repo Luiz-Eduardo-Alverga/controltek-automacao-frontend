@@ -1,4 +1,4 @@
-import CadastroFuncionarioPage from '../../support/pages/Login/CadastroFuncionarioPage';
+import CadastroFuncionarioPage from '../../support/pages/cadastro-funcionario/CadastroFuncionarioPage';
 import { faker } from '@faker-js/faker';
 
 describe('Cadastro de funcionário', () => {

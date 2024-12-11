@@ -11,8 +11,6 @@ class CadastrarFuncionarioPage {
 
     preencherCampos (randomName) {
         cy.get("#username").type(randomName);
-
-        cy.findByRole('combobox').click()
             
         cy.get('select').select(1,{ force: true});
     }
